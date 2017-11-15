@@ -17,3 +17,5 @@ Ao rodar o container baseado nessa image, o `$HOME/discoDocker/oracle/etc/tnsnam
 ```
     docker run -v $HOME/discoDocker/oracle/etc/tnsnames.ora:/etc/tnsnames.ora alexllid/xenial-php7-oci8
 ```
+
+Dentro da pasta `oracle/etc` tem um arquivo `tnsnames.ora` como exemplo.

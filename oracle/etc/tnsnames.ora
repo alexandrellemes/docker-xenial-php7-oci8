@@ -1,0 +1,9 @@
+nome_da_base =
+(DESCRIPTION =
+  (ADDRESS = (PROTOCOL = TCP)(HOST = x.x.x.x)(PORT = 1521))
+  (CONNECT_DATA =
+    (SERVER = DEDICATED)
+    (SERVICE_NAME = nome_da_base)
+  )
+)
+
